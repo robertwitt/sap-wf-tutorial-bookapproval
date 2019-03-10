@@ -94,8 +94,16 @@
 			"subject": "Approve ${context.product}",
 			"priority": "MEDIUM",
 			"isHiddenInLogForParticipant": false,
-			"userInterface": "sapui5://html5apps/test/test",
+			"userInterface": "sapui5://html5apps/bpmformplayer/com.sap.bpm.wus.form.player",
 			"recipientUsers": "P2001023908",
+			"formReference": "/forms/BookApproval/ApproveBook.form",
+			"userInterfaceParams": [{
+				"key": "formId",
+				"value": "approvebook"
+			}, {
+				"key": "formRevision",
+				"value": "1.0"
+			}],
 			"id": "usertask1",
 			"name": "Approve Book"
 		},
